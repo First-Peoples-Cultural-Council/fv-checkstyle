@@ -6,7 +6,7 @@ First Voices Java Style Guide based on the [Google Java Style Guide](https://goo
 
 - `java-fv-google-style-strict.xml`: Checks based on the official Google Style Guide
 - `java/intellij-java-fv-google-style.xml`: IntelliJ code style schema. Works with IntelliJ.
-- `eclipse-java-fv-google-style.xml`: Eclipse code style configuration, works with Eclipse code formatter plugins
+- `java/eclipse-java-fv-google-style.xml`: Eclipse code style configuration, works with Eclipse code formatter plugins
 
 # Installation
 
