@@ -51,3 +51,7 @@ To enforce strict checkstyle rules, in the root `pom.xml` of project, add the fo
     </executions>
 </plugin>
 ```
+
+## Contributing to checkstyle rules:
+
+These checkstyle rules act as a guideline for all developers on FirstVoices and similar products at FPCC. If a style does not suit your development needs, we encourage developers to contribute to the checkstyle rules by submitting a PR.
