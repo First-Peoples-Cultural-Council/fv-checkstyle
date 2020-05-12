@@ -51,3 +51,7 @@ To enforce strict checkstyle rules, in the root `pom.xml` of project, add the fo
     </executions>
 </plugin>
 ```
+
+## TODO:
+
+- Update Copyright Documentation
