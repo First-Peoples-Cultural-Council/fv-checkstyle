@@ -56,6 +56,7 @@ To enforce strict checkstyle rules, in the root `pom.xml` of project, add the fo
 
 These checkstyle rules act as a guideline for all developers on FirstVoices and similar products at FPCC. If a style does not suit your development needs, we encourage developers to contribute to the checkstyle rules by submitting a PR.
 
-## TODO:
+## Automatically Updating Copyright on Java Classes in IntelliJ
 
-- Update Copyright Documentation
+Go to Settings->Editor->Copyright Profiles and add the new copyright profile from `https://raw.githubusercontent.com/First-Peoples-Cultural-Council/fv-checkstyle/master/copyright/intellij-java-copyright.txt`. Name it, validate it and click Apply. Then go to Settings->Editor->Copyright and select newly entered profile as Default project copyright and click OK.
+Then, under Editor -> Formatting, go through each language listed and click `no copyright` except for Java. You will click `Use default settings` for Java.
