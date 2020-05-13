@@ -88,7 +88,6 @@
             <property name="option" value="nl"/>
         </module>
         <module name="SeparatorWrap">
-            <property name="id" value="SeparatorWrapComma"/>
             <property name="tokens" value="COMMA"/>
             <property name="option" value="EOL"/>
         </module>
