@@ -236,7 +236,5 @@
 
     </module>
 
-    <module name="NewlineAtEndOfFile">
-        <property name="lineSeparator" value="lf_cr_crlf"/>
-    </module>
+
 </module>
