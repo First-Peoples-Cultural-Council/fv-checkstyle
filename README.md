@@ -52,12 +52,13 @@ To enforce strict checkstyle rules, in the root `pom.xml` of project, add the fo
 </plugin>
 ```
 
-## Contributing to checkstyle rules:
+## Contributing to checkstyle rules
 
 These checkstyle rules act as a guideline for all developers on FirstVoices and similar products at FPCC. If a style does not suit your development needs, we encourage developers to contribute to the checkstyle rules by submitting a PR.
 
 ## Suppressing a checkstyle rule
 _Note: Do this sparingly!_
+
 Check out the use of the [supressionCommentFilter](http://checkstyle.sourceforge.net/config_filters.html#SuppressionCommentFilter).
 
 You can add comments to your code to turn off checkstyle (at various levels) and then back on again through the use of comments in your code. E.g.
