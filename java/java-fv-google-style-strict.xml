@@ -233,6 +233,7 @@
         <module name="DefaultComesLast" />
         <module name="EmptyStatement"/>
         <module name="SuppressWarningsHolder"/>
+        <module name="SuppressionCommentFilter"/>
 
     </module>
 
