@@ -56,6 +56,17 @@ To enforce strict checkstyle rules, in the root `pom.xml` of project, add the fo
 
 These checkstyle rules act as a guideline for all developers on FirstVoices and similar products at FPCC. If a style does not suit your development needs, we encourage developers to contribute to the checkstyle rules by submitting a PR.
 
+## Suppressing a checkstyle rule
+_Note: Do this sparingly!_
+Check out the use of the [supressionCommentFilter](http://checkstyle.sourceforge.net/config_filters.html#SuppressionCommentFilter).
+
+You can add comments to your code to turn off checkstyle (at various levels) and then back on again through the use of comments in your code. E.g.
+```java
+//CHECKSTYLE:OFF
+public void someMethod(String arg1, String arg2, String arg3, String arg4) {
+//CHECKSTYLE:ON
+```
+
 ## Automatically Updating Copyright on Java Classes in IntelliJ
 
 Go to Settings->Editor->Copyright Profiles and add the new copyright profile from `https://raw.githubusercontent.com/First-Peoples-Cultural-Council/fv-checkstyle/master/copyright/intellij-java-copyright.txt`. Name it, validate it and click Apply. Then go to Settings->Editor->Copyright and select newly entered profile as Default project copyright and click OK.
